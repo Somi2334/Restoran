@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.border{
+    height: 100%;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header{
+    background-color: #1f4a3b;
+}
+
+.header-in{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav a:hover{
+    color: goldenrod;
+}
+
+.name h1{
+    font-size: 30px;
+    color: white;
+}
+
+.banner{
+    height: 80vh;
+    background-image: url("../img/Restoran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-in{
+   color: white; 
+   margin: 0 auto;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.b-button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+}
+
+.b-button:hover{
+    border: 2px solid goldenrod;
+    background-color: white;
+}
+
+.b-left{
+    background-color: rgba(15, 29, 24, 0.8);
+    border-top: 5px solid goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.b-left h1{
+    font-size: 150px;
+    margin: 0 auto;
+}
+
+.b-left p{
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.b-right{
+    background-color: rgba(15, 29, 24, 0.8);
+    border-top: 5px solid goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.row{ 
+  display: flex;  
+  padding: 20px;
+  border-top: 1px solid white;
+}
+
+.row span {
+  width: 90px;
+  color: #a3b3aa;
+  font-size: 15px;
+}
+
+.jelovnik{
+    color: white;
+    background-color: rgb(18, 36, 29);
+    height: 160vh;
+    padding: 40px 20px;
+}
+
+.jelovnik p{
+    color: #a3b3aa;
+}
+
+.jelovnik-in h1{
+    font-size: 80px;
+}
+
+.box{
+    border:1px solid goldenrod;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+}
+
+.box h1{
+    border-bottom: 1px solid goldenrod;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food p{
+    border-top: 5px dotted goldenrod;
+    padding: 15px;
+}
+
+.jelovnik-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+
+.gallery{
+    height: 120vh;
+    background-color: rgb(18, 36, 29);
+    padding: 40px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.img img{
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.contact{
+    background-color:  rgb(18, 36, 29);
+    height: 50vh;
+    padding: 40px 20px;
+}
+
+.contact-in h1{
+    font-size: 60px;
+    color: white;
+}
+
+.contact-box{
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #1f4a3b;
+}
+
+.contact-box-in{
+    display: flex;
+}
+
+.form{
+    height: 300px;
+}
+
+.form-in{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.form-box{
+    color: white;
+    font-size: 20px;
+}
+
+.form-box input{
+    width: 200px;
+    height: 50px;
+    background-color:rgba(15, 29, 24, 0.6);
+    color: white;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.r-button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.r-button:hover{
+    border: 2px solid goldenrod;
+    background-color: white;
+}
+
+.footer{
+    height: 30vh;
+    background-color: rgb(9, 19, 15);
+    padding: 40px 20px;
+    color: white;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#poruka{
+    color: white;
+}
